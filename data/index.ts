@@ -8,8 +8,9 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: "As a highly adaptable Full-Stack Developer",
+    description:
+      "I prioritize open communication and active collaboration with clients to ensure their vision is brought to life. ",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -18,7 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      "I'm comfortable working across different time zones and collaborating with global teams.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "My Tech stack",
+    description: "Finding ways to IMPROVE",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,8 +40,9 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "The Tech Way",
+    description:
+      "Tech-savvy Full-Stack Developer passionate about crafting innovative solutions. I thrive on exploring new technologies and pushing the boundaries of what's possible.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -49,8 +52,9 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "The Inside Scoop",
+    description:
+      "Currently honing my JavaScript and TypeScript skills to build robust and scalable web applications. I'm excited to apply my knowledge to create innovative solutions.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,34 +76,38 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "3D Portfolio",
+    des: "Creating my own Portfolio using Three JS",
+    img: "/p1.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/vitejs.svg"],
+    link: "https://kgn-portfolio-a0b394.netlify.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Ecommerce - Product Demo for Local Client",
+    des: "A responsive ecommerce web application is essential for reaching a wider audience and providing a seamless shopping experience across various devices",
+    img: "/p2.jpg",
+    iconLists: [
+      "/re.svg",
+      "/antd.svg",
+      "/js.svg",
+      "/vitejs.svg",
+      "/postgresql.svg",
+    ],
+    link: "https://demo-ecommerce-kgn096.netlify.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "Streaming Website (Under Construction)",
+    des: "Developing innovative live streaming platforms that rival industry leaders",
+    img: "/undercon.jpg",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/mongo.svg",
+      "/redux.svg",
+    ],
     link: "https://github.com/adrianhajdin/iphone",
   },
 ];
@@ -173,31 +181,24 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineer Intern",
+    desc: "Exposure to SDLC. Assisted in the development of a web-based platform using Flowable/Edoras One for automation Process.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/intern1.jpg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Software Engineer Intern",
+    desc: "Part take in a real project using React and React Redux with exposure to Backend",
+    className: "md:col-span-2",
+    thumbnail: "/intern2.jpg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Software Engineer",
+    desc: "Full Stack Developer adept at leveraging the full suite of Cloud features to create robust and scalable web solutions.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp1.jpg",
   },
 ];
 
@@ -205,17 +206,34 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    href: "https://github.com/kgsng096",
   },
   {
     id: 3,
     img: "/link.svg",
+    href: "https://www.linkedin.com/in/keith-geoffrey-ng-698b3820a/",
+  },
+  {
+    id: 4,
+    img: "/cloud.svg",
+    href: "/Keith_Ng_CV.pdf",
   },
 ];
 
-export const leftList = ["ReactJS"];
+export const leftList = [
+  "ReactJS",
+  "Reac-Redux",
+  "React-Router",
+  "NextJS",
+  "ViteJS",
+];
 
-export const rightList = ["ExpressJS"];
+export const rightList = [
+  "ExpressJS",
+  "NodeJS",
+  "NestJS",
+  "Sequelize",
+  "TypeORM",
+  "SQL",
+  "NoSQL",
+];

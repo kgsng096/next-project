@@ -58,6 +58,7 @@ export const PinContainer = ({
     </Link>
   );
 };
+
 export const PinPerspective = ({
   title,
   href,
