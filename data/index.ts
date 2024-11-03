@@ -108,7 +108,7 @@ export const projects = [
       "/mongo.svg",
       "/redux.svg",
     ],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "",
   },
 ];
 
